@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+body{
+    background-color: whitesmoke;
+    font-family: 'Varela', sans-serif;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Poppins', sans-serif;
+   
+    
+}
+.logo img{
+    height: 44px;
+    padding: 0 0.5rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    color: white;
+    background-color: black;
+    height: 60px;
+
+}
+nav ul li{
+    padding: 10px;
+}
+.container{
+    min-height: 62vh;
+    background-color: darkgray;
+    color: white;
+    margin: 15px auto;
+    width: 75%;
+    padding: 30px;
+    border-radius: 12px;
+    background-image: url(images/WallpaperDog-3395.png);
+    background-position: center;
+    background-size: cover;
+}
+.bottom{
+    height: 108px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#progressBar{
+    width: 80vw;
+    padding: 20px 0;}
+.icons{
+    cursor: pointer;
+    display: flex;
+    gap: 25px;
+}
+.songItems{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgray;
+    margin: 20px 0;
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+
+}
+.songItems img{
+    height: 40px;
+    margin-left: 10px;
+    
+}
+.songItemPlay i {
+    cursor: pointer;
+    margin-left: 5px;
+}
+.songItemContainer{
+    margin-top: 15px;
+}
+.songInfo{
+    position:absolute;
+    left: 10vw;
+    bottom: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.songInfo img{
+    width: 40px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+
+}

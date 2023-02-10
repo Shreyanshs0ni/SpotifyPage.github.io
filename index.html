@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo">
+          <img src="images/logo.png" alt="Spotify" /><span>Spotify</span>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+      <div class="songList"><h1>XXXTENTACION</h1></div>
+      <div class="songItemContainer">
+        <div class="songItems">
+          <img src="images/44vr4x.png" alt="" />
+          <span>Revenge</span>
+          <span class="songItemPlay"
+            ><span class="songItemtime"
+              >2:00<i class="fa-solid fa-play songPlay" id="1"></i></span
+          ></span>
+        </div>
+        <div class="songItems">
+          <img src="images/__XXXTENTACION_Cover.png" alt="" />
+          <span>Hope</span>
+          <span class="songItemPlay"
+            ><span class="songItemtime"
+              >1:50<i class="fa-solid fa-play songPlay" id="2"></i></span
+          ></span>
+        </div>
+        <div class="songItems">
+          <img src="images/44vr4x.png" alt="" />
+          <span>Jocelyn Flores</span>
+          <span class="songItemPlay"
+            ><span class="songItemtime"
+              >1:59<i class="fa-solid fa-play songPlay" id="3"></i></span
+          ></span>
+        </div>
+        <div class="songItems">
+          <img src="images/__XXXTENTACION_Cover.png" alt="" />
+          <span>Sad!</span>
+          <span class="songItemPlay"
+            ><span class="songItemtime"
+              >2:46<i class="fa-solid fa-play songPlay" id="4"></i></span
+          ></span>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="progressBar" id="progressBar" value="0" />
+      <div class="icons">
+        <i class="far fa-2x fa-solid fa-backward-step" id="previous"></i>
+        <i class="far fa-2x fa-solid fa-play" id="masterPlay"></i>
+        <i class="far fa-2x fa-solid fa-forward-step" id="next"></i>
+      </div>
+      <div class="songInfo">
+          <img src="images/Nt6v.gif" alt="" id="gif"><span id="MasterSongName">Revenge</span> 
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/dd4ccc303e.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="app.js"></script>
+</html>
